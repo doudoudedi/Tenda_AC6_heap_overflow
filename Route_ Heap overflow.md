@@ -8,7 +8,7 @@
 
 ​	https saveParentControlInfo fuction in IDA view
 
-<img src="/Users/doudou/Library/Application Support/typora-user-images/image-20210826114251359.png" alt="image-20210826114251359" style="zoom:50%;" />
+<img src="./Tenda/image-20210826114251359.png" alt="image-20210826114251359" style="zoom:50%;" />
 
 
 
@@ -18,9 +18,9 @@
 
 ​	Then modify the deviceid to overflow the heap and crash the program
 
-<img src="/Users/doudou/Library/Application Support/typora-user-images/image-20210826120446468.png" alt="image-20210826120446468" style="zoom:50%;" />
+<img src="./Tenda/image-20210826120446468.png" alt="image-20210826120446468" style="zoom:50%;" />
 
 You can see that httpd crashed
 
-<img src="/Users/doudou/Library/Application Support/typora-user-images/image-20210826120822098.png" alt="image-20210826120822098" style="zoom:50%;" />
+<img src="./Tenda/image-20210826120822098.png" alt="image-20210826120822098" style="zoom:50%;" />
 
