@@ -23,7 +23,7 @@ Hardware Link:https://www.tenda.com.cn/download/detail-2661.html
 
 
 
-​	The deviceid we entered is directly copied to the PTR heap memory through the strcpy function. The maximum size we can enter should be 0x400 bytes, but the malloc function only applied for 0x254 bytes, resulting in heap overflow
+​	The deviceid we entered is directly copied to the PTR heap memory through the strcpy function. The maximum size we can enter > 0x254 bytes, but the malloc function only applied for 0x254 bytes, resulting in heap overflow
 
 ​	So we first create a new device under the home control module, and then use burpsuit to capture packets
 ```
