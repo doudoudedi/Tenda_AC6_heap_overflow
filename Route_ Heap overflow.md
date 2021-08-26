@@ -17,7 +17,7 @@ Hardware Link:https://www.tenda.com.cn/download/detail-2661.html
 
 ##### Details
 
-​	https saveParentControlInfo fuction in IDA view
+​	httpd saveParentControlInfo fuction in IDA view
 
 <img src="./Tenda/image-20210826114251359.png" alt="image-20210826114251359" style="zoom:50%;" />
 
