@@ -1,5 +1,16 @@
 # Route_ Heap overflow
 
+Vender ：Tenda
+
+Firmware version:US_AC6V1.0BR_V15.03.05.16_multi_TD01
+
+Exploit Author: doudoudedi233@gmail.com
+
+Vendor Homepage: https://www.tenda.com.cn/default.html
+
+Hardware Link:https://www.tenda.com.cn/download/detail-2661.html
+
+
 ##### Describe
 
 ​	I found some vulnerabilities in Tenda AC6. The firmware version is  US_AC6V1.0BR_V15.03.05.16_multi_TD01,HTTP requests can be constructed to attack HTTP services, resulting in denial of service
