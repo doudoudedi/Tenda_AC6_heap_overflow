@@ -2,7 +2,7 @@
 
 ##### Describe
 
-​	I found some vulnerabilities in Tenda AC6. The firmware version is  _ US_ AC6V1.0BR_ V15.03.05.16_ multi_ Td01.bin, which may cause a denial of service 
+​	I found some vulnerabilities in Tenda AC6. The firmware version is  US_AC6V1.0BR_V15.03.05.16_multi_TD01,HTTP requests can be constructed to attack HTTP services, resulting in denial of service
 
 ##### Details
 
