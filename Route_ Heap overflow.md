@@ -64,6 +64,8 @@ You can see that httpd crashed
 <img src="./Tenda/image-20210826120822098.png" alt="image-20210826120822098" style="zoom:50%;" />
 
 ##### POC
+
+Running the script three times can cause a crash
 ```
 import requests
 
