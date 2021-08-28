@@ -2,7 +2,7 @@
 
 Vender ：Tenda
 
-Firmware version:US_AC6V1.0BR_V15.03.05.16_multi_TD01
+Firmware version:US_AC6V1.0BR_V15.03.05.16_multi_TD01. && AC7V1.0RTL_V15.03.06.44_multi_TD01.bin
 
 Exploit Author: doudoudedi233@gmail.com
 
@@ -13,7 +13,7 @@ Hardware Link:https://www.tenda.com.cn/download/detail-2661.html
 
 ##### Describe
 
-​	I found some vulnerabilities in Tenda AC6. The firmware version is  US_AC6V1.0BR_V15.03.05.16_multi_TD01,HTTP requests can be constructed to attack HTTP services, resulting in denial of service
+​	I found some vulnerabilities in Tenda AC6 and AC7. The firmware version is  US_AC6V1.0BR_V15.03.05.16_multi_TD01,HTTP requests can be constructed to attack HTTP services, resulting in denial of service
 
 ##### Details
 
